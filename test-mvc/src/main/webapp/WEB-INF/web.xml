@@ -12,6 +12,8 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     
+
+    
      <!-- Declaration de la servlet de Spring et de son mapping -->
     <servlet>
         <servlet-name>servlet-dispatcher</servlet-name>

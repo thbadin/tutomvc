@@ -12,7 +12,7 @@ public class BonjourController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String afficherBonjour(final ModelMap pModel, 
-                @RequestParam(value="personne") final String pPersonne) {
+                @RequestParam(value="personne", defaultValue="toto") final String pPersonne) {
 
         pModel.addAttribute("personne", pPersonne);
         return "bonjour";
