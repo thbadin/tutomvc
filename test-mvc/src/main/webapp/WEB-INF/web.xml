@@ -12,7 +12,13 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     
-
+	<resource-ref>
+        <description>Ressource JDBC de l'application</description>
+        <res-ref-name>jdbc/dsMonApplication</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
     
      <!-- Declaration de la servlet de Spring et de son mapping -->
     <servlet>
