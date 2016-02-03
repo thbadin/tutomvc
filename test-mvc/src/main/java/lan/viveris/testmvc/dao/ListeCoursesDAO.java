@@ -31,4 +31,8 @@ public class ListeCoursesDAO implements IListeCoursesDAO {
 
         return lTypedQuery.getResultList();
     }
+    
+    public void creerCourse(final Course pCourse) {
+        entityManager.persist(pCourse);
+    }
 }

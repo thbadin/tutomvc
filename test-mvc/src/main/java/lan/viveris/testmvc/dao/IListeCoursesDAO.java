@@ -6,4 +6,5 @@ import lan.viveris.testmvc.bean.Course;
 
 public interface IListeCoursesDAO {
     List<Course> rechercherCourses();
+    void creerCourse(final Course pCourse);
 }
