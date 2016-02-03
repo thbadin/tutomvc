@@ -33,5 +33,6 @@
             </c:forEach>
         </tbody>
     </table>
-    <input type="submit"/>
+    <spring:message code="modification.submit.value" var="sumbitMsg"/>
+    <input type="submit" value="${sumbitMsg}"  />
 </form:form>
