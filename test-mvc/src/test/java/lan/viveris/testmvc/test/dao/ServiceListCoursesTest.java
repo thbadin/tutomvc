@@ -58,8 +58,5 @@ public final class ServiceListCoursesTest {
     	}
     	assertTrue("not found "+lib+" in list", found);
     	
-    	
-    	
-    	
 	}
 }
